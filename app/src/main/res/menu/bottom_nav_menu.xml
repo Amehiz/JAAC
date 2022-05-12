@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_anime"
+        android:id="@+id/navigation_animelist"
         android:icon="@drawable/ic_animelibrary_outline_24dp"
-        android:title="@string/title_anime" />
+        android:title="@string/title_animelist" />
         
         <item
-        android:id="@+id/navigation_manga"
+        android:id="@+id/navigation_mangalist"
         android:icon="@drawable/ic_library_outline_24dp"
-        android:title="@string/title_manga" />
+        android:title="@string/title_mangalist" />
 
     <item
         android:id="@+id/navigation_home"

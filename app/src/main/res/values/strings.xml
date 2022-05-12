@@ -2,8 +2,8 @@
     <string name="app_name">AniListClient</string>
 
     <!--Borrom Navigation Bar -->
-    <string name="title_anime">Anime</string>
-    <string name="title_manga">Manga</string>
+    <string name="title_animelist">Anime</string>
+    <string name="title_mangalist">Manga</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_profile">Profile</string>

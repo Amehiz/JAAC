@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_anime">
+    app:startDestination="@+id/navigation_animelist">
 
     <fragment
-    android:id="@+id/navigation_anime"
-    android:name="me.mehiz.anilistclient.ui.anime.AnimeFragment"
-    android:label="@string/title_anime"
-    tools:layout="@layout/fragment_anime" />
+    android:id="@+id/navigation_animelist"
+    android:name="me.mehiz.anilistclient.ui.animelist.AnimelistFragment"
+    android:label="@string/title_animelist"
+    tools:layout="@layout/fragment_animelist" />
 
     <fragment
-    android:id="@+id/navigation_manga"
-    android:name="me.mehiz.anilistclient.ui.manga.MangaFragment"
-    android:label="@string/title_manga"
-    tools:layout="@layout/fragment_manga" />
+    android:id="@+id/navigation_mangalist"
+    android:name="me.mehiz.anilistclient.ui.mangalist.MangalistFragment"
+    android:label="@string/title_mangalist"
+    tools:layout="@layout/fragment_mangalist" />
 
     <fragment
         android:id="@+id/navigation_home"

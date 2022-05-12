@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.dashboard.MangaFragment">
+    tools:context=".ui.mangalist.MangalistFragment">
 
     <TextView
-        android:id="@+id/text_manga"
+        android:id="@+id/text_mangalist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
