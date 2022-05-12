@@ -1,10 +1,10 @@
-package me.mehiz.anilistclient.ui.home
+package me.mehiz.anilistclient.ui.discover
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class DiscoverViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
         value = "This is the Home Page"

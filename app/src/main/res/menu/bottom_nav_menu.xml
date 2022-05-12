@@ -3,18 +3,18 @@
 
     <item
         android:id="@+id/navigation_animelist"
-        android:icon="@drawable/ic_animelibrary_outline_24dp"
+        android:icon="@drawable/ic_animelist_selector"
         android:title="@string/title_animelist" />
         
         <item
         android:id="@+id/navigation_mangalist"
-        android:icon="@drawable/ic_library_outline_24dp"
+        android:icon="@drawable/ic_mangalist_selector"
         android:title="@string/title_mangalist" />
 
     <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_outline_24dp"
-        android:title="@string/title_home" />
+        android:id="@+id/navigation_discover"
+        android:icon="@drawable/ic_discover_selector"
+        android:title="@string/title_discover" />
 
     <item
         android:id="@+id/navigation_dashboard"

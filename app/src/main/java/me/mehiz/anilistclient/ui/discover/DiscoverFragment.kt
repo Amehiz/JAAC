@@ -1,4 +1,4 @@
-package me.mehiz.anilistclient.ui.home
+package me.mehiz.anilistclient.ui.discover
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import me.mehiz.anilistclient.databinding.FragmentHomeBinding
+import me.mehiz.anilistclient.databinding.FragmentDiscoverBinding
 
-class HomeFragment : Fragment() {
+class DiscoverFragment : Fragment() {
 
-    private var _binding: FragmentHomeBinding? = null
+    private var _binding: FragmentDiscoverBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,14 +22,14 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+        val discoverViewModel =
+            ViewModelProvider(this).get(DiscoverViewModel::class.java)
 
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        _binding = FragmentDiscoverBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
-        homeViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textDiscover
+        discoverViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root
