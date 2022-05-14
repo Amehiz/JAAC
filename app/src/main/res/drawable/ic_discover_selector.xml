@@ -11,12 +11,12 @@
 
     <transition
         android:drawable="@drawable/anim_discover_leave"
-        android:fromId="@id/normal"
-        android:toId="@id/checked" />
+        android:fromId="@id/checked"
+        android:toId="@id/normal" />
 
     <transition
         android:drawable="@drawable/anim_discover_enter"
-        android:fromId="@id/checked"
-        android:toId="@id/normal" />
+        android:fromId="@id/normal"
+        android:toId="@id/checked" />
 
 </animated-selector>
