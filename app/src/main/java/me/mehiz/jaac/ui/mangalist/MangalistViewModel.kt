@@ -1,13 +1,13 @@
-package me.mehiz.anilistclient.ui.animelist
+package me.mehiz.jaac.ui.mangalist
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class AnimelistViewModel : ViewModel() {
+class MangalistViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is Anime Fragment"
+        value = "This is The Manga Tab"
     }
     val text: LiveData<String> = _text
 }

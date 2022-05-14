@@ -1,4 +1,4 @@
-package me.mehiz.anilistclient.ui.dashboard
+package me.mehiz.jaac.ui.dashboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import me.mehiz.anilistclient.databinding.FragmentDashboardBinding
+import me.mehiz.jaac.databinding.FragmentDashboardBinding
 
 class DashboardFragment : Fragment() {
 

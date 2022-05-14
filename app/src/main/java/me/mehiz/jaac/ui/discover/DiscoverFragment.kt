@@ -1,4 +1,4 @@
-package me.mehiz.anilistclient.ui.profile
+package me.mehiz.jaac.ui.discover
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,12 +7,14 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import me.mehiz.anilistclient.databinding.FragmentProfileBinding
+import me.mehiz.jaac.databinding.FragmentDiscoverBinding
 
-class ProfileFragment : Fragment() {
+class DiscoverFragment : Fragment() {
 
-    private var _binding: FragmentProfileBinding? = null
+    private var _binding: FragmentDiscoverBinding? = null
 
+    // This property is only valid between onCreateView and
+    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -20,14 +22,14 @@ class ProfileFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val profileViewModel =
-            ViewModelProvider(this).get(ProfileViewModel::class.java)
+        val discoverViewModel =
+            ViewModelProvider(this).get(DiscoverViewModel::class.java)
 
-        _binding = FragmentProfileBinding.inflate(inflater, container, false)
+        _binding = FragmentDiscoverBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textProfile
-        profileViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textDiscover
+        discoverViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root

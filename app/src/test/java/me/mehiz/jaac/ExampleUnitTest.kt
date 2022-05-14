@@ -1,4 +1,4 @@
-package me.mehiz.anilistclient
+package me.mehiz.jaac
 
 import org.junit.Test
 

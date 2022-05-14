@@ -1,4 +1,4 @@
-package me.mehiz.anilistclient.ui.animelist
+package me.mehiz.jaac.ui.mangalist
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import me.mehiz.anilistclient.databinding.FragmentAnimelistBinding
+import me.mehiz.jaac.databinding.FragmentMangalistBinding
 
-class AnimelistFragment : Fragment() {
+class MangalistFragment : Fragment() {
 
-    private var _binding: FragmentAnimelistBinding? = null
+    private var _binding: FragmentMangalistBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,14 +22,14 @@ class AnimelistFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val animelistViewModel =
-            ViewModelProvider(this).get(AnimelistViewModel::class.java)
+        val mangalistViewModel =
+            ViewModelProvider(this).get(MangalistViewModel::class.java)
 
-        _binding = FragmentAnimelistBinding.inflate(inflater, container, false)
+        _binding = FragmentMangalistBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textAnimelist
-        animelistViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textMangalist
+        mangalistViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root

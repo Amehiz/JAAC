@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AniListClient</string>
+    <string name="app_name">JAAC</string>
 
     <!--Borrom Navigation Bar -->
     <string name="title_animelist">Anime</string>

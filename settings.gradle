@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "AniListClient"
+rootProject.name = "JAAC"
 include ':app'

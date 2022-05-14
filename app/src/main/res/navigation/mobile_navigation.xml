@@ -7,31 +7,31 @@
 
     <fragment
     android:id="@+id/navigation_animelist"
-    android:name="me.mehiz.anilistclient.ui.animelist.AnimelistFragment"
+    android:name="me.mehiz.jaac.ui.animelist.AnimelistFragment"
     android:label="@string/title_animelist"
     tools:layout="@layout/fragment_animelist" />
 
     <fragment
     android:id="@+id/navigation_mangalist"
-    android:name="me.mehiz.anilistclient.ui.mangalist.MangalistFragment"
+    android:name="me.mehiz.jaac.ui.mangalist.MangalistFragment"
     android:label="@string/title_mangalist"
     tools:layout="@layout/fragment_mangalist" />
 
     <fragment
         android:id="@+id/navigation_discover"
-        android:name="me.mehiz.anilistclient.ui.discover.DiscoverFragment"
+        android:name="me.mehiz.jaac.ui.discover.DiscoverFragment"
         android:label="@string/title_discover"
         tools:layout="@layout/fragment_discover" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="me.mehiz.anilistclient.ui.dashboard.DashboardFragment"
+        android:name="me.mehiz.jaac.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="me.mehiz.anilistclient.ui.profile.ProfileFragment"
+        android:name="me.mehiz.jaac.ui.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>

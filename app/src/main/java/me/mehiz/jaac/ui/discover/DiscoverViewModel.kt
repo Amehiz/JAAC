@@ -1,4 +1,4 @@
-package me.mehiz.anilistclient.ui.discover
+package me.mehiz.jaac.ui.discover
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
