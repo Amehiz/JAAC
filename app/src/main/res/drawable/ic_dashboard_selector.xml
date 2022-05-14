@@ -1,24 +1,22 @@
 <animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/normal"
-        android:drawable="@drawable/ic_switch_account_black_outline_24dp"
+        android:drawable="@drawable/ic_question_answer_black_24dp"
         android:state_checked="false" />
 
     <item
         android:id="@+id/checked"
-        android:drawable="@drawable/ic_switch_account_black_24dp"
+        android:drawable="@drawable/ic_question_answer_black_active_24dp"
         android:state_checked="true" />
 
-
     <transition
-        android:drawable="@drawable/anim_profile_enter"
+        android:drawable="@drawable/anim_dashboard_enter"
         android:fromId="@id/normal"
         android:toId="@id/checked" />
 
     <transition
-        android:drawable="@drawable/anim_profile_leave"
+        android:drawable="@drawable/anim_dashboard_leave"
         android:fromId="@id/checked"
         android:toId="@id/normal" />
-
 
 </animated-selector>
